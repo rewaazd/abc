@@ -1,0 +1,109 @@
+.navigation {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.navigation.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+
+}
+
+.heading-about {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.heading-about.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+
+}
+
+.image-card {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.image-card.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+
+}
+
+.heading-product {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.heading-product.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+
+}
+
+.glass {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.glass.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+
+}
+
+.glass-2 {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.glass-2.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+
+}
+
+.glass-3 {
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+
+.glass-3.show {
+    opacity: 1;
+    transition: all .5s;
+    transform: translateY(0%);
+}
+
+.cooperation {
+    opacity: 0;
+}
+
+
+.cooperation.show {
+    opacity: 1;
+    transition: all .5s;
+}
+
+.our-socials {
+    opacity: 0;
+}
+
+
+.our-socials.show {
+    opacity: 1;
+    transition: all .5s;
+}

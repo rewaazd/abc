@@ -1,0 +1,1146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../media/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    -webkit-text-size-adjust : none;
+    text-size-adjust: none;
+    
+}
+
+/* Header */
+.heading-name{
+    margin: 25px auto 40px auto;
+}
+
+.heading-name h1 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-size: 68px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.image img {
+    display: block;
+    border-radius: 10px;
+    width: 500px;
+    margin: 0px auto 50px auto;
+}
+
+.navigation {
+    margin-bottom: 50px;
+}
+
+.navigation ul {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px 30px;
+}
+
+.navigation ul li {
+    background: #0a0a0a;
+    width: 200px;
+    padding: 15px 16px;
+    border-radius: 15px;
+    transition: all 1s;
+    border: 1px solid rgba(255, 255, 255, 0.2)
+}
+
+.navigation ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s;
+    align-items: center;    
+    justify-content: center;
+}
+
+.navigation ul li a:hover{
+    opacity: .8;
+}
+
+
+.navigation ul li:hover{
+    border-radius: 15px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, .4);
+} 
+
+
+/* HR */
+
+
+.atom-1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80vw;
+    height: 1px;
+    margin: 0 auto 40px auto;
+}
+
+
+/* Main */
+
+.heading-about {
+    margin: 0 auto 40px auto;
+}
+
+.heading-about h2 {
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.image-card img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.image-card {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block-photos {
+    display: grid;
+    padding: 0 15px 0 15px;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 75px 50px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.one {
+    justify-self: end;
+}
+.three {
+    justify-self: start;
+}
+.four {
+    justify-self: end;
+}
+.seven {
+    justify-self: start;
+}
+
+/* 1 */
+.photo-modal-1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+}
+
+.photo-modal-1 h3 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#open-modal-btn-1 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+#open-modal-btn-1 h4{
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 16px;
+}
+/* 2 */
+
+.photo-modal-2{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+
+.photo-modal-2 h3 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#open-modal-btn-2-2 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+#open-modal-btn-2-2 h4{
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 16px;
+}
+
+/* 3 */
+
+.photo-modal-3{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 290px;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+
+.photo-modal-3 h3 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#open-modal-btn-3-3 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+#open-modal-btn-3-3 h4{
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 16px;
+}
+
+/* 4 */
+
+.photo-modal-4{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 330px;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+
+.photo-modal-4 h3 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#open-modal-btn-4-4 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+#open-modal-btn-4-4 h4{
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 16px;
+}
+
+/* 5 */
+
+.photo-modal-5{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 210px;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+
+.photo-modal-5 h3 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#open-modal-btn-5-5 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+#open-modal-btn-5-5 h4{
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 16px;
+}
+
+/* 7 */
+
+.photo-modal-7{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 320px;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+
+.photo-modal-7 h3 {
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#open-modal-btn-7-7 {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.75);
+    border-radius: 15px;
+}
+#open-modal-btn-7-7 h4{
+    font-weight: 400;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 16px;
+}
+
+/* HR */
+
+.atom-2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80vw;
+    height: 1px;
+    margin: 0 auto 40px auto;
+}
+
+/* Products */
+
+
+.heading-product {
+    margin: 40px auto 50px auto;
+}
+
+.heading-product h2 {
+    font-family:  "Dela Gothic One", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+/* glass-1 */
+
+.glass {
+    background: rgb(15, 15,15);
+    width: 750px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+}
+
+.heading-mainstage {
+    margin: 40px auto 30px auto;
+    width: 400px;
+}
+
+.heading-mainstage h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+
+.image-mainstage img{
+    margin: 0 auto 40px auto;
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.link-mainstage {
+    margin: 0 auto 40px auto;
+    background: #191919;
+    width: 380px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.38);
+    transition: all 1s;
+}
+
+
+.link-mainstage a {
+    display: flex;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    padding: 13px 20px;
+    transition: all .5s;
+    text-align: center;
+}
+
+
+.link-mainstage:hover {
+    border-radius: 15px;
+}
+
+.link-mainstage a:hover {
+    opacity: .9;    
+}
+
+/* glass-2 */
+
+.glass-2 {
+    background: rgb(15, 15,15);
+    width: 750px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+}
+
+.heading-premier {
+    margin: 40px auto 30px auto;
+}
+
+.heading-premier h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    text-align: center;
+    color: gold;
+}
+
+
+.image-premier img{
+    margin: 0 auto 25px auto;
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.paragraph-premier {
+    margin-bottom: 15px;
+}
+.paragraph-premier p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    
+}
+
+.link-premier {
+    margin: 0 auto 10px auto;
+    background: #191919;
+    width: 320px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.38);
+    transition: all 1s;
+}
+
+
+.link-premier a {
+    display: flex;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px 20px;
+    color: #fff;
+    align-items: center;    
+    justify-content: center;
+    transition: all .5s;
+    
+}
+
+.link-premier:hover {
+    border-radius: 15px;
+}
+
+.link-premier a:hover {
+    opacity: .8;    
+}
+
+.paragraph-last-premier {
+    margin: 0 auto 30px auto;
+    width: 200px;
+}
+
+.paragraph-last-premier{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    opacity: .5;
+}
+
+/* glass-3 */
+
+.glass-3 {
+    background: rgb(15, 15,15);
+    width: 750px;
+    margin: 40px auto 80px auto;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+}
+
+.heading-performances {
+    margin: 40px auto 30px auto;
+}
+.heading-performances h3 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+}
+
+.image-performances img{
+    margin: 0 auto 25px auto;
+    display: block;
+    width: 500px;
+    border-radius: 10px;
+}
+.paragraph-performances {
+    margin-bottom: 20px;
+}
+
+.paragraph-performances p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+.link-performances {
+    margin: 0 auto 30px auto;
+    background: #191919;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.38);
+    transition: all 1s;
+}
+
+
+.link-performances a {
+    display: flex;
+    text-decoration: none;
+    padding: 13px 10px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    align-items: center;    
+    justify-content: center;
+    transition: all .5s;
+    
+}
+
+/* HR */
+.atom-3 {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 80vw;
+    height: 1px;
+    margin: 0 auto 40px auto;
+}
+
+/* COOPERATION */
+
+.heading-cooperation {
+    margin: 0 auto 25px auto;
+}
+
+.heading-cooperation h3{
+    font-family: Dela Gothic One, sans-serif;
+    font-size: 64px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.never{
+    margin: 0 auto 25px auto;
+}
+
+.consultation {
+    margin: 0 auto 25px auto;
+}
+
+
+.never h4, .consultation h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.org {
+    line-height: 50px;
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+}
+
+.org h4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+} 
+
+/* HR */
+.tn-atom-coop {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 70vw;
+    height: 1px;
+    margin: auto;
+} 
+/* SOCIALS */
+
+
+.heading-socials {
+    margin: 40px auto 25px auto;
+}
+
+.heading-socials h4{
+    font-family: Dela Gothic One, sans-serif;
+    font-size: 64px;
+    text-align: center;   
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.socials ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px 40px;
+}
+
+.socials ul li a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: Prompt, sans-serif;
+    font-weight: 400;
+    transition: all 0.4s;
+    align-items: center;    
+    justify-content: center;
+    font-size: 36px;
+}
+
+.socials ul li a:hover{
+    opacity: .8;
+}
+
+.socials ul li:hover{
+    border-radius: 15px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.beforeinst {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-bottom: 7px;
+    opacity: .7;
+}
+
+.socialspinst {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+.socialspinst p {
+    font-family: Unbounded;
+    font-size: 9px;
+    text-align: center;
+    opacity: .5;
+    letter-spacing: 3px;
+}
+
+
+/* DESIGN BY */
+
+@font-face {
+    font-family: Bradley;
+    src: url(../media/Bradleys\ Pen.ttf);
+}
+
+.desigby {
+    margin: 30px auto 30px auto;
+}
+
+.desigby p {
+    font-family: Bradley;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    opacity: .9;
+    letter-spacing: 3px;
+}
+
+/* Modal Window 1st button */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal.open{
+    visibility: visible;
+    opacity: 1;  
+}
+
+.body-hidden {
+    overflow-y: hidden;
+    padding-right: 19px;
+    background-position-x: -10px;
+    background-color: black;
+}
+
+.modal-window {
+    position: relative;
+    z-index: 1;
+    width: 700px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+.modal.open .modal-window {
+    transform: scale(1);
+}
+
+#btn-close {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+}
+
+#btn-close i:hover {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Modal Window 2nd button */
+
+.modal-2 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-2.open{
+    visibility: visible;                                                                            
+    opacity: 1;
+    
+}
+
+.modal-window-2 {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-2.open .modal-window-2 {
+    transform: scale(1);
+}
+
+
+#btn-close-2 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-2 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-2 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* Modal Window 3 button */
+
+.modal-3 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-3.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-3 {
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-3.open .modal-window-3 {
+    transform: scale(1);
+}
+
+
+#btn-close-3 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-3 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-3 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* Modal Window 4 button */
+.modal-4 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-4.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-4 {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-4.open .modal-window-4 {
+    transform: scale(1);
+}
+
+
+#btn-close-4 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-4 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-4 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+/* Modal Window 5 button */
+.modal-5 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-5.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-5 {
+    position: relative;
+    z-index: 1;
+    width: 650px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-5.open .modal-window-5 {
+    transform: scale(1);
+}
+
+
+#btn-close-5 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-5 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+
+}
+
+#btn-close-5 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+/* Modal Window 7 button */
+.modal-7 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99998;
+    background-color: rgba(0,0,0,.7);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-7.open{
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+
+
+
+.modal-window-7 {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    background: rgb(15, 15,15);
+    transform: scale(0);
+    transition: transform .7s;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.38);
+    margin: 40px auto 40px auto;
+}
+
+.modal-7.open .modal-window-7 {
+    transform: scale(1);
+}
+
+
+#btn-close-7 {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#btn-close-7 i {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s;
+}
+
+#btn-close-7 i:hover {
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 19px;
+}
+
+::-webkit-scrollbar-track {
+    background-image: url(../media/Background.jpg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+    border: 5px solid rgb(2 2 2);
+    transition: all .5s;
+}
